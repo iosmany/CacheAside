@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Dominio.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RedisCon" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">127.0.0.1:6379</Value>
+    </Setting>
+    <Setting Name="TipoCache" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">combinado</Value>
+    </Setting>
+    <Setting Name="TiempoEnCacheLocal" Type="System.TimeSpan" Scope="Application">
+      <Value Profile="(Default)">00:10:00</Value>
+    </Setting>
+    <Setting Name="TiempoEnCacheRedis" Type="System.TimeSpan" Scope="Application">
+      <Value Profile="(Default)">2.00:00:00</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
