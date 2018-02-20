@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aplicacion.cs" />
-    <Compile Include="Entidades\CacheSql.cs" />
+    <Compile Include="Entidades\DatoPersistido.cs" />
     <Compile Include="ICache.cs" />
     <Compile Include="Implementaciones\CacheCombinada.cs" />
     <Compile Include="Implementaciones\CacheLocal.cs" />

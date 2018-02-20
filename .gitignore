@@ -1,1 +1,6 @@
 /.vs
+/CacheAside/obj
+/CacheAside/bin
+/Dominio/bin
+/Dominio/obj
+/packages
