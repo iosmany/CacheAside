@@ -36,7 +36,8 @@ namespace CacheAside
             for (int i = 1; i < 13; i++)
             {
                 Producto p = cache.ResuelveAsync<Producto>(cacheKey + i).GetAwaiter().GetResult();
-                Console.WriteLine(p.ToString());
+                if(p != null)
+                    Console.WriteLine(p.ToString());
             }
 
             Console.ReadLine();
