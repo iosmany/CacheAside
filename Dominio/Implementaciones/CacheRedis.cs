@@ -12,7 +12,7 @@ namespace Dominio.Implementaciones
     {
         public CacheRedis(RedisDb redis)
         {
-            if(redis.Connection != null)
+            if(redis.Connection != null && redis.Connection.IsConnected)
                 db = redis.Connection.GetDatabase();
         }
 
